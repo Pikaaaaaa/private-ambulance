@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css" integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy" crossorigin="anonymous">
+    <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="assets/plugins/animate/animate.css">
+    <link rel="stylesheet" href="assets/plugins/jquery-ui/jquery-ui.min.css">
+    <link rel="stylesheet" href="assets/plugins/owl/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owl/css/owl.theme.default.css">
+    <!-- layout -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- // js -->
+    <script
+    src="https://code.jquery.com/jquery-3.2.1.js"
+    integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+    crossorigin="anonymous"></script>
+    <title>Private Ambulance</title>
+</head>
+<body class="bounce">
+    <div id="side-menu-overlay"></div>
+    <div id="side-menu">
+        <div class="side-menu-top">
+            <div class="side-menu-inner d-flex align-items-center clearfix">
+                <h3>menu</h3>
+                <div id="close-side-menu">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+        </div>
+        <div class="side-nav-inner">
+            <ul>
+                <li><a href="#">მთავარი</a></li>
+                <li><a href="#">ჩვენ შესახებ</a></li>
+                <li><a href="#">სერვისები</a></li>
+                <li><a href="#">ბლოგი</a></li>
+                <li><a href="#">კითხვა–პასუხი</a></li>
+                <li><a href="#">სიახლეები</a></li>
+                <li><a href="#">კონტაქტი</a></li>
+            </ul>
+        </div>
+    </div>
+    <header class="page-header d-flex align-items-center">
+        <div class="container clearfix">
+            <div class="row align-items-center">
+                <div class="col-lg-3 logo-holder clearfix">
+                    <div class="logo-holder-inner float-left">
+                        <h1>
+                            <a href="#">
+                                <img class="img-fluid" src="assets/images/privateLogo.png" alt="Logo">
+                            </a>
+                        </h1>
+                    </div>
+                </div>
+                <div class="col-lg-9 navigation clearfix">
+                    <a href="#" id="toggle-side-menu" class="bars-menu float-right"><i class="fas fa-bars"></i></a>
+                    <nav class="menu">
+                        <ul>
+                            <li><a href="#">მთავარი</a></li>
+                            <li><a href="#">ჩვენ შესახებ</a></li>
+                            <li><a href="#">სერვისები</a></li>
+                            <li><a href="#">ბლოგი</a></li>
+                            <li><a href="#">კითხვა–პასუხი</a></li>
+                            <li><a href="#">სიახლეები</a></li>
+                            <li><a href="#">კონტაქტი</a></li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="page-content">
+        <div class="bottom-header" style="background-image:url(assets/images/headerbg.png)">
+           <div class="container">
+                <form class="booking-form">
+                        <div class="form-group container">
+                            <h3 class="text-center">სრაფი შეკვეთის ფორმა</h3>
+                                <div class="col-12">
+                                    <label for="email">პაციენტის სახელი და გვარი</label>
+                                    <input type="email" id="email" class="form-control email">
+                                </div>
+                                <div class="col-12">
+                                    <label for="tel">ტელეფონის ნომერი</label>
+                                    <input type="tel" id="tel" class="form-control telephone">
+                                </div>
+                                <div class="row">
+                                    <div class="col-6">
+                                        <label for="date">გამოძახების თარიღი</label>
+                                        <input type="text" id="date" class="form-control datepicker" placeholder="none">
+                                    </div>
+                                    <div class="col-6">
+                                        <label for="time">გამოძახების დრო</label>
+                                        <input type="time" id="time" class="form-control time">    
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <label for="location">გამოძახების მისამართი</label>
+                                    <input type="text" id="location" class="form-control location">   
+                                </div>
+                            <div class="text-center">
+                                <button type="submit" class="booking-form-btn btn btn-outline-white">გამოძახება</button>
+                            </div>
+                        </div>
+                </form>
+            </div>
+        </div>
+        <section class="page-section about">
+            <div class="container">
+                <h2 class="section-title">ჩვენ შესახებ</h2>
+                <p>
+                    სს „პრივატი“ დაფუძნდა 2010 წელს და მე-7 წელია წარმატებით ოპერირებს ბაზარზე. ჩვენს ძირითად მიმართულებებს  წარმოადგენს: - სასწრაფო სამედიცინო მომსახურება; სამედიცინო სერვისების კონსულტირება და მენეჯმენტი, სადაზღვევო ბიზნესი; სამედიცინო ტურიზმი
+                </p>
+                <div class="owl-carousel owl-theme about-carousel">
+                    <div class="about-item item">
+                        <div class="item-overlay">
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                პრივატ ამბულანსი უზრუნველყოფს მრავალპროფილური: თერაპიული; პედიატრიული;   კარდიოლოგიური; და რეანიმაციული  - მაღალკვალიფიციური სპეციალისტებით დაკომპლექტებული ბრიგადების მომსახურებას.
+                            </p>
+                        </div>
+                        <img class="carousel-img" src="assets/images/carousel/carousel1.png" alt="slide">
+                        <div class="about-info">
+                            <figure class="about-icon about-icon-1"></figure>
+                            <h3>მიზანი</h3> 
+                            <p>
+                                სს „პრივატი“ საქართველოში საერთაშორისო სტანდარტების სერვისის დამკვიდრებასა და განვითარებაზეა ორიენტირებული. ხარისხის მაღალი სტანდარტის შენარჩუნება კომპანიის უმთავრესი მიზანია.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-item item">
+                       <div class="item-overlay">
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                პრივატ ამბულანსი უზრუნველყოფს მრავალპროფილური: თერაპიული; პედიატრიული;   კარდიოლოგიური; და რეანიმაციული  - მაღალკვალიფიციური სპეციალისტებით დაკომპლექტებული ბრიგადების მომსახურებას.
+                            </p>
+                        </div>
+                        <img class="carousel-img" src="assets/images/carousel/carousel2.png" alt="slide">
+                        <div class="about-info">
+                            <figure class="about-icon about-icon-2"></figure>
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                სს „პრივატი“ საქართველოში საერთაშორისო სტანდარტების სერვისის დამკვიდრებასა და განვითარებაზეა ორიენტირებული. ხარისხის მაღალი სტანდარტის შენარჩუნება კომპანიის უმთავრესი მიზანია.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-item item">
+                       <div class="item-overlay">
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                პრივატ ამბულანსი უზრუნველყოფს მრავალპროფილური: თერაპიული; პედიატრიული;   კარდიოლოგიური; და რეანიმაციული  - მაღალკვალიფიციური სპეციალისტებით დაკომპლექტებული ბრიგადების მომსახურებას.
+                            </p>
+                        </div>
+                        <img class="carousel-img" src="assets/images/carousel/carousel3.png" alt="slide">
+                        <div class="about-info">
+                            <figure class="about-icon about-icon-3"></figure>
+                            <h3>სტანდარტი</h3>
+                            <p>
+                                სს „პრივატი“ საქართველოში საერთაშორისო სტანდარტების სერვისის დამკვიდრებასა და განვითარებაზეა ორიენტირებული. ხარისხის მაღალი სტანდარტის შენარჩუნება კომპანიის უმთავრესი მიზანია.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-item item">
+                       <div class="item-overlay">
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                პრივატ ამბულანსი უზრუნველყოფს მრავალპროფილური: თერაპიული; პედიატრიული;   კარდიოლოგიური; და რეანიმაციული  - მაღალკვალიფიციური სპეციალისტებით დაკომპლექტებული ბრიგადების მომსახურებას.
+                            </p>
+                        </div>
+                        <img class="carousel-img" src="assets/images/carousel/carousel4.png" alt="slide">
+                        <div class="about-info">
+                            <figure class="about-icon about-icon-4"></figure>
+                            <h3>აღჭურვილობა</h3>
+                            <p>
+                                სს „პრივატი“ საქართველოში საერთაშორისო სტანდარტების სერვისის დამკვიდრებასა და განვითარებაზეა ორიენტირებული. ხარისხის მაღალი სტანდარტის შენარჩუნება კომპანიის უმთავრესი მიზანია.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="about-item item">
+                       <div class="item-overlay">
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                პრივატ ამბულანსი უზრუნველყოფს მრავალპროფილური: თერაპიული; პედიატრიული;   კარდიოლოგიური; და რეანიმაციული  - მაღალკვალიფიციური სპეციალისტებით დაკომპლექტებული ბრიგადების მომსახურებას.
+                            </p>
+                        </div>
+                        <img class="carousel-img" src="assets/images/carousel/carousel2.png" alt="slide">
+                        <div class="about-info">
+                            <figure class="about-icon about-icon-2"></figure>
+                            <h3>სპეციალისტები</h3>
+                            <p>
+                                სს „პრივატი“ საქართველოში საერთაშორისო სტანდარტების სერვისის დამკვიდრებასა და განვითარებაზეა ორიენტირებული. ხარისხის მაღალი სტანდარტის შენარჩუნება კომპანიის უმთავრესი მიზანია.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/images/privateLogo.png" class="about-logo" alt="Logo">
+            </div>
+        </section>
+        <section class="page-section services" style="background-image:url(assets/images/services/servicesBG.png)">
+            <div class="container">
+                <h3 class="section-title section-title--light">
+                    ჩვენი სერვისები
+                </h3>
+                    <p>
+                        ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს. Lorem Ipsum-ის გამოყენებით ვღებულობთ იმაზე მეტ-ნაკლებად სწორი გადანაწილების ტექსტს, ვიდრე ერთიდაიგივე გამეორებადი სიტყვებია ხოლმე.
+                    </p>
+                <div class="row services-list">
+                    <div class="col-lg-4 col-md-6 product">
+                        <div class="product-inner">
+                            <img src="assets/images/services/1.png" alt="service">
+                            <h4>სასწრაფო სამედიცინო დახმარება</h4>
+                            <p>პრივატ ამბულანსი უზრუნველყოფს სასწრაფო სამედიცინო დახმარების მომსახურებას მრავალპროფილური ბრიგადებითა და თანამედროვედ აღჭურვილი ავტომობილებით, 24/7-ზე რეჟიმით ნებისმიერი ასაკის პაციენტისათვის.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 product">
+                        <div class="product-inner">
+                            <img src="assets/images/services/2.png" alt="service">
+                            <h4>ამბულატორული მომსახურება ბინაზე</h4>
+                            <p>„პრივატი“ ამბულანსი გთავაზობთ, მაღალკვალიფიციური ოჯახის ექიმების, თერაპევტებისა და ვიწრო სპეციალობის ექიმების მომსახურებას ბინაზე. თქვენ შეძლებთ მიიღოთ სამედიცინო მომსახურება სახლიდან გაუსვლელად, რომელიც გულისხმობს: სამედიცინო კონსულტაციას,  დანიშნულების გაცემასა და შემთხვევის სრულ მართვას.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 product">
+                        <div class="product-inner">
+                            <img src="assets/images/services/3.png" alt="service">
+                            <h4>პაციენტის ტრანსპორტირება/რეპატრიაცია </h4>
+                            <p>პრივატ ამბულანსი უზრუნველყოფს პაციენტის ტრანსპორტირებას სამედიცინო ბრიგადების თანხლებით, ქვეყნის ფარგლებში ან საზღვარგარეთ, უახლესი ტექნოლოგიებით აღჭურვილი ავტოტრანსპორტით. ამასთან ჩვენ უზრუნველვყოფთ სრული სამედიცინო მომსახურების ორგანიზებას საზღვარგარეთ.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="row services-list-bottom">
+                    <div class="col-lg-4 col-md-6 product">
+                        <div class="product-inner">
+                            <img src="assets/images/services/4.png" alt="service">
+                            <h4>პალიატიური მკურნალობისა და ბინაზე 
+                            მოვლის სერვისი/მანიპულაციები</h4>
+                            <p>პრივატის მაღალკვალიფიციური პერსონალი უზრუნველყოფს პალიატიურ მკურნალობასა და მოვლას ბინაზე, ასევე სხვადასხვა, საჭირო მანიპულაციების ჩატარებას.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 product">
+                        <div class="product-inner">
+                            <img src="assets/images/services/5.png" alt="service">
+                            <h4>ლაბორატორიულ-ინსტრუმენტული კვლევები ბინაზე</h4>
+                            <p>პრივატი გთავაზობთ მრავალი სახის ლაბორატორიულ-ინსტრუმენტულ კვლევებს ბინაზე, უახლესი აპარატურის გამოყენებით. თქვენ შეგეძლებათ ჩაიტაროთ: ექოსკოპია, რენტგენოგრაფია, სისხლის ანალიზები, კარდიოგრაფია, ჰოლტერის მონიტორინგი, ინჰალაცია და ა. შ.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 product">
+                        <div class="product-inner">
+                            <img src="assets/images/services/6.png" alt="service">
+                            <h4>პაციენტის ტრანსპორტირება/რეპატრიაცია </h4>
+                            <p>პრივატ ამბულანსი უზრუნველყოფს პაციენტის ტრანსპორტირებას სამედიცინო ბრიგადების თანხლებით, ქვეყნის ფარგლებში ან საზღვარგარეთ, უახლესი ტექნოლოგიებით აღჭურვილი ავტოტრანსპორტით. ამასთან ჩვენ უზრუნველვყოფთ სრული სამედიცინო მომსახურების ორგანიზებას საზღვარგარეთ.</p>
+                        </div>
+                    </div>
+                </div>
+                <button type="submit" class="booking-form-btn btn btn-outline-white">დეტალურად</button>
+            </div>
+        </section>
+        <section class="page-section blog">
+            <div class="container text-center">
+                <h3 class="section-title">
+                    ბლოგი
+                </h3>
+                <div class="row blog-posts">
+                    <div class="col-md-4 post col-sm-6 text-left">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/blog/1.png" alt="blog post">
+                        </a>
+                        <h3 class="blog-post-title">სტატიის სათაურის ადგილი</h3>
+                        <h4 class="blog-post-subtitle">26 დეკემბერი 2016</h4>
+                        <p class="blog-post-p">ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.</p>
+                    </div>
+                    <div class="col-md-4 post col-sm-6 text-left">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/blog/2.png" alt="blog post">
+                        </a>
+                        <h3 class="blog-post-title">სტატიის სათაურის ადგილი</h3>
+                        <h4 class="blog-post-subtitle">26 დეკემბერი 2016</h4>
+                        <p class="blog-post-p">ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.</p>
+                    </div>
+                    <div class="col-md-4 post col-sm-6 text-left">
+                        <a href="#">
+                            <img class="img-fluid" src="assets/images/blog/3.png" alt="blog post">
+                        </a>
+                        <h3 class="blog-post-title">სტატიის სათაურის ადგილი</h3>
+                        <h4 class="blog-post-subtitle">26 დეკემბერი 2016</h4>
+                        <p class="blog-post-p">ცნობილი ფაქტია, რომ გვერდის წაკითხვად შიგთავსს შეუძლია მკითხველის ყურადღება მიიზიდოს და დიზაინის აღქმაში ხელი შეუშალოს.</p>
+                    </div>
+                </div>
+                <button type="button" class="btn btn-success">იხილეთ მეტი</button>
+            </div>
+        </section>
+        <section class="page-section contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 contact-content">
+                        <div class="info text-md-left">
+                            <img src="assets/images/privateLogoWhite.png" alt="" class="img-fluid">
+                            <p>სს „პრივატი“ დაფუძნდა 2010 წელს და მე-7 წელია წარმატებით ოპერირებს ბაზარზე. ჩვენს ძირითად მიმართულებებს  წარმოადგენს: - სასწრაფო სამედიცინო მომსახურება; სამედიცინო სერვისების კონსულტირება და მენეჯმენტი, სადაზღვევო ბიზნესი; სამედიცინო ტურიზმი;</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-content">
+                        <div class="service-links text-md-left">
+                            <h3 class="section-title section-title-light">
+                                ჩვენი სერვისი
+                            </h3>
+                            <ul>
+                                <li><a href="#">სასრაფო სამედიცინო დახმარება</a></li>
+                                <li><a href="#">ამბოლატორიული მომსახურება ბინაზე</a></li>
+                                <li><a href="#">ლაბორატორიულ-ინსტრუმენტული კვლევები ბინაზე</a></li>
+                                <li><a href="#">პაციენტის ტრანსპორტირება/რეპატრიაცია </a></li>
+                                <li><a href="#">პალიატიური მკურნალობისა და ბინაზე მოვლის სერვისი</a></li>
+                                <li><a href="#">პრივატ ქარდი</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-4 contact-content text-md-left">
+                        <h3 class="section-title section-title-light">კონტაქტი</h3>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fas fa-map-marker-alt"></i>
+                                    თბილისი, 0160, გამრეკელის ქ. 19
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                   <i class="fas fa-phone"></i>
+                                    +995 322 991 991; +995 32 2 952 240
+                                </a>
+                            </li>
+                            <li>
+                               <a href="#">
+                                    <i class="far fa-envelope"></i>
+                                    unison@unison.ge
+                               </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="page-footer">
+        <div class="container text-center">
+            <div class="row align-items-center">
+                <div class="col-md-4 text-md-left">
+                    <p>სს პრივატი 2017. ყველა უფლება დაცულია</p>
+                </div>
+                <div class="col-md-4">
+                    <ul class="social">
+                        <li><a href="#"><img src="assets/images/facebook.png" alt="facebook" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/images/twitter.png" alt="twitter" class="img-fluid"></a></li>
+                        <li><a href="#"><img src="assets/images/utube.png" alt="youtube" class="img-fluid"></a></li>
+                    </ul>
+                </div>
+                <div class="col-md-4 text-md-right">
+                    <img src="assets/images/mobilityLogo.png" alt="mobility" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- scripts -->
+    <!-- plugins -->
+    <script src="assets/plugins//jquery-ui/jquery-ui.min.js"></script>
+    <script src="assets/plugins/owl/js/owl.carousel.min.js"></script>
+    <!-- layout -->
+    <script src="assets/js/global.js"></script>
+    <script src="assets/js/datepicker.js"></script>
+    <script src="assets/js/owl.js"></script>
+</body>
+</html>
